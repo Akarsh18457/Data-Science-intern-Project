@@ -55,7 +55,7 @@ These patterns indicate elevated risk-taking during Fear despite weaker performa
 
 ---
 
-## Actionable Insights
+## Strategy Ideas
 
 1. **Risk Control During Fear**  
    Elevated leverage during Fear increases drawdowns without improving returns.  
