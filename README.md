@@ -16,5 +16,5 @@ Charts showing:
 - Trade frequency
 - Trader segments
 
-### Key Insights
+### Key Insights and Strategies
 See INSIGHTS.md
