@@ -1,73 +1,71 @@
-Executive Summary — Trader Performance vs Market Sentiment
-Objective
+# Executive Summary — Trader Performance vs Market Sentiment
 
+## Objective  
 This analysis examines how Bitcoin market sentiment (Fear vs Greed) influences trader behavior and performance on Hyperliquid. By aligning daily trader metrics with sentiment regimes, we identify behavioral shifts, performance differences, and actionable strategy insights.
 
-Methodology
+---
 
-Merged daily Bitcoin Fear/Greed sentiment with Hyperliquid trade-level data.
+## Methodology  
+- Merged daily Bitcoin Fear/Greed sentiment data with Hyperliquid trade-level data.
+- Aggregated metrics at the trader-day level, including:
+  - Daily PnL and win rate  
+  - Trade frequency  
+  - Average leverage and position size  
+  - Long/short ratio  
+  - PnL volatility as a drawdown proxy
+- Conducted trader segmentation using behavioral and performance features.
+- Supported findings with visual evidence (boxplots, bar charts, and summary tables).
 
-Aggregated metrics at the trader-day level, including:
+---
 
-Daily PnL, win rate, trade count
+## Key Findings
 
-Average leverage, position size, long/short ratio
+### 1. Performance Differs Significantly by Sentiment
+- **Greed days** are associated with higher and more stable daily PnL and win rates.
+- **Fear days** show significantly higher PnL volatility, indicating larger drawdowns.
+- Overall trader performance deteriorates during Fear regimes due to increased risk and inconsistency.
 
-PnL volatility as a drawdown proxy
+**Evidence:** Daily PnL boxplots and PnL volatility comparisons across sentiment regimes.
 
-Performed trader segmentation using behavioral and performance features.
+---
 
-Visual evidence includes boxplots, bar charts, and segment summary tables.
+### 2. Trader Behavior Changes with Market Sentiment
+- **Trade Frequency:** Higher during Greed days; reduced participation during Fear.
+- **Leverage:** Average leverage increases during Fear days, particularly among aggressive traders.
+- **Positioning:** Greed regimes exhibit stronger long bias and larger average position sizes.
 
-Key Findings
-1. Performance Differs Significantly by Sentiment
+These patterns indicate elevated risk-taking during Fear despite weaker performance outcomes.
 
-Greed days show higher and more stable daily PnL and win rates.
+**Evidence:** Trade frequency bar charts, leverage distribution plots, and long/short ratio summaries.
 
-Fear days exhibit substantially higher PnL volatility, indicating deeper drawdowns.
+---
 
-Overall, trader performance deteriorates under Fear sentiment due to increased risk and inconsistency.
+### 3. Distinct Trader Segments Show Different Sensitivities
 
-Evidence: Daily PnL boxplots and PnL volatility comparisons.
+**Segment 1 — High-Leverage Traders**  
+- High volatility and largest drawdowns, especially during Fear regimes.
 
-2. Traders Actively Change Behavior Based on Sentiment
+**Segment 2 — Frequent Traders**  
+- Perform well during Greed regimes but lose edge during Fear due to overtrading.
 
-Trade Frequency: Higher on Greed days; reduced participation during Fear.
+**Segment 3 — Consistent Winners**  
+- Lower leverage, stable win rates, and best risk-adjusted performance across all regimes.
 
-Leverage: Increases during Fear days, particularly among aggressive traders.
+**Evidence:** Segment-level performance and volatility summary tables.
 
-Positioning: Greed days show stronger long bias and larger position sizes.
+---
 
-These patterns suggest higher risk-taking during Fear despite poorer outcomes.
+## Actionable Insights
 
-Evidence: Trade frequency bar charts, leverage distribution plots, long/short ratios.
+1. **Risk Control During Fear**  
+   Elevated leverage during Fear increases drawdowns without improving returns.  
+   **Rule:** Cap leverage or reduce exposure for high-risk trader segments during Fear regimes.
 
-3. Distinct Trader Segments Exhibit Different Sensitivities
+2. **Selective Aggression During Greed**  
+   Increased trade frequency improves performance only for historically consistent traders.  
+   **Rule:** Allow higher activity during Greed regimes selectively for disciplined traders.
 
-Segment 1 — High-Leverage Traders
+---
 
-High volatility and large drawdowns, especially during Fear days.
-
-Segment 2 — Frequent Traders
-
-Benefit from Greed regimes but lose edge during Fear due to overtrading.
-
-Segment 3 — Consistent Winners
-
-Lower leverage, stable win rates, and best risk-adjusted performance across regimes.
-
-Evidence: Cluster-level performance and volatility tables.
-
-Actionable Insights
-
-Risk Control During Fear:
-High leverage during Fear increases drawdowns without improving returns.
-→ Cap leverage or reduce exposure for aggressive trader segments during Fear regimes.
-
-Selective Aggression During Greed:
-Increased trade frequency is beneficial only for historically consistent traders.
-→ Allow higher activity during Greed for disciplined traders, not across the board.
-
-Final Takeaway
-
-Market sentiment materially impacts both trader behavior and outcomes. Strategies that dynamically adjust leverage and activity based on sentiment and trader archetype can significantly improve performance and reduce downside risk.
+## Final Takeaway  
+Market sentiment materially impacts both trader behavior and performance. Adaptive strategies that adjust leverage and trading activity based on sentiment and trader archetype can meaningfully improve returns while reducing downside risk.
